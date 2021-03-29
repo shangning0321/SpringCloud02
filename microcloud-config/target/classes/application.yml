@@ -1,0 +1,13 @@
+server:
+  port: 7101
+
+spring:
+  application:
+    name: microcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github:com/shangning0321/cloud2:git
+
+
